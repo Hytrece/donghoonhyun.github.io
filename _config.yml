@@ -5,7 +5,7 @@ keywords: null
 author: Donghoon Hyun
 language: en
 timezone: ''
-url: https://donghoonhyun.github.io 
+url: https://donihyun.github.io 
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -61,5 +61,5 @@ ignore: null
 theme: icarus
 deploy:
   type: git
-  repo: https://github.com/Hytrece/donghoonhyun.github.io.git
+  repo: https://github.com/donihyun/donihyun.github.io.git
   branch: gh-pages
