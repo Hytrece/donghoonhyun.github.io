@@ -35,11 +35,17 @@
 
 /* Location */
 .card.widget[data-type="profile"] .card-content > nav.level:first-of-type p.is-size-6.is-flex {
-  font-family: var(--profile-serif);
-  font-weight: 500;
-  font-size: 1.05rem;
+  /* Match reference: location is larger and not italic, with normal theme font */
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
   line-height: 1.2;
   margin-top: 0;
+}
+
+.card.widget[data-type="profile"] .card-content > nav.level:first-of-type p.is-size-6.is-flex i {
+  font-size: 1.15em;
 }
 
 /* Center align like the reference screenshot. */
